@@ -85,7 +85,13 @@
 	border: solid 5px white;
 	margin: 10px;
 }
-
+ .fotoProducto1:hover{
+	 transform: scale(2);
+ }
+ .fotoProducto1{
+	transition-property: all;
+	transition-duration: 1s;
+ }
 .tituloPromos{
 	font-family: 'Poiret One', cursive;
 	display:block;
@@ -101,6 +107,13 @@
 	padding: 10px; 
 	border: solid 5px white;
 	margin: 10px;
+}
+.promo1:hover{
+	transform: scale(2);
+}
+.promo1{
+	transition-property: all;
+	transition-duration: 1s;
 }
 .seccion2{
 	display: flex;

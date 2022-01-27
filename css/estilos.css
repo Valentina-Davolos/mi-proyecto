@@ -1,0 +1,269 @@
+                    	          /*------INDEX-------*/
+*{
+	padding: 0%;
+	margin: 0%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--COMIENZO HEADER--*/
+.header{
+	background-color:#ADADAD;
+	padding: 10px;
+	border: 5px;
+	margin: 10px 10px 5px 10px;
+}
+
+.logo{
+	width: 100px;
+	padding: 5px;
+	border: 5px;
+	margin: 5px;
+}
+.menu{
+	display: flex;
+	list-style-type: none;
+	height: 80px;
+	width: 700px;
+	padding: 5px;
+	border:dotted black 3px;
+	margin: 5px;
+	
+}
+
+.menu li a{
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px;
+	margin: 10px;
+}
+
+.menu li:hover{
+	background-color:white;
+}
+/*--COMIENZO MAIN--*/
+.main{
+	background-color:#DED4D2;
+	padding: 10px;
+	border: 5px;
+	margin: 5px 10px 5px 10px;
+}
+
+.primerBanner{
+	height: 400px;
+	width: 1300px;
+	display: block;
+	padding: 5px;
+	border: 5px;
+	margin: 5px auto;
+
+}
+.nuevaColeccion{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	width: 300px;
+	display: block;
+	padding: 10px;
+	border: dotted black 3px;
+	margin: 30px auto;
+}
+
+.seccion1{
+	display: flex;
+    justify-content: space-around;
+	flex-wrap:wrap;
+}
+
+.fotoProducto1{
+	height: 450px;
+	width: 250px;
+	padding: 10px; 
+	border: solid 5px white;
+	margin: 10px;
+}
+
+.tituloPromos{
+	font-family: 'Poiret One', cursive;
+	display:block;
+	font-size: 30px;
+	width: 350px;
+	padding: 10px;
+	border:dotted black 3px;
+	margin: 30px auto;
+}
+.promo1{
+    height: 450px;
+	width: 250px;
+	padding: 10px; 
+	border: solid 5px white;
+	margin: 10px;
+}
+.seccion2{
+	display: flex;
+    justify-content: space-around;
+	flex-wrap:wrap;
+}
+.seccion3{
+	display: flex;
+    justify-content: space-around;
+}
+.icono1{
+	padding: 10px;
+	margin: 30px 15px 30px 15px;
+	border: 5px;
+}
+
+/*--COMIENZO FOOTER--*/
+.footer{
+	display: flex;
+    justify-content: space-around;
+	flex-wrap:wrap;
+	background-color: #ADADAD;
+	padding: 10px;
+	border: 5px;
+	margin: 5px 10px 10px 10px ;
+}
+.redesSociales{
+	font-family: 'Poiret One', cursive;
+	padding: 5px;
+	border: 5px;
+	margin: 5px;
+}
+
+.iconosRedes li{
+	display: flex;
+	list-style: none;
+	padding: 5px;
+	border: 5px;
+	margin: 5px;
+}
+                             /*-----PRODUCTOS-----*/
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+/*--Comienzo header--*/
+.menu{
+	display: flex;
+	list-style-type: none;
+	height: 80px;
+	width: 770px;
+	padding: 5px;
+	border:dotted black 3px;
+	margin: 5px;
+}
+
+/*--Comienzo main--*/
+.tituloProductos{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	width: 180px;
+	display: block;
+	padding: 10px;
+	border: dotted black 3px;
+	margin: 10px auto;
+}
+
+.segundaSeccion{
+	display: flex;
+    justify-content: space-around;
+	flex-wrap:wrap;
+}
+.tituloTabla{
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+}
+
+.tablaDeTalles{
+	padding: 10px; 
+	border: solid black 6px;
+	margin: 5px;
+}
+
+                         /*-------CONTACTO------ */
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;		
+}
+
+/* --Comienzo de main--*/
+.tituloContacto{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	width: 180px;
+	display: block;
+	padding: 10px;
+	border: dotted black 3px;
+	margin: 10px auto;
+}
+
+.datosDeContacto p{
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	padding: 3px;
+	border: 3px;
+	margin: 3px;
+}
+
+.formularioDeContacto p{
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	padding: 3px;
+	border: 3px;
+	margin: 3px;
+}
+
+                             /*------PREGUNTAS FRECUENTES------*/
+ *{
+	padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;		
+}
+			
+.preguntasFrecuentes{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	width: 300px;
+	display: block;
+	padding: 10px;
+	border: dotted black 3px;
+	margin: 15px auto;
+}
+
+.preguntasYRespuestas p{
+	padding: 5px;
+	border: 5px;
+	margin: 10px;
+}
+
+                                /*-----POLITICAS DE DEVOLUCION------*/
+
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;		
+}
+
+.politicasDeDevolucion{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	width: 350px;
+	display: block;
+	padding: 10px;
+	border: dotted black 3px;
+	margin: 15px auto;
+}
+
+.textoDePoliticas{
+	font-size: 20px;
+	padding:5px;
+	border: 5px;
+	margin: 10px;	
+}
